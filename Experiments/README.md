@@ -9,7 +9,7 @@ Each directory contains:
 
 ## EXPERIMENTS
 ### Experiment 1 - Pix2Pix
-Pix2Pix model for colorization requires only the colored version of the images, since the code computes its black and white version before starting training the network. Therefore, we used 90% of our colored dataset, more concretely, 360 images. [Note that the network has been trained with 720 pictures]. 
+Pix2Pix model for colorization requires only the colored version of the images, since the [source code](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/tree/master/Source%20Code) computes its black and white version before starting training the network. Therefore, we used 90% of our colored dataset, more concretely, 360 images. [Note that the network has been trained with 720 pictures]. 
 We first trained it using a batch size equal to 32. 
 
 ### Experiment 2 - Pix2Pix
