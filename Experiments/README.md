@@ -4,8 +4,11 @@ Each directory contains:
 - Dataset: the dataset used to train and test the network
 - Train Results: files obtained from training:
   - .pth files: containing the last version of the networks
-  - loss_log.txt
-  - train_opt.txt
+  - loss_log.txt: contains training losses' evolution
+  - train_opt.txt: specifications used for training
+- Test Results: 
+  - Images: directory containing real and fake images
+  - test_opt.txt: specifications used for testing
 
 ## EXPERIMENTS
 ### Experiment 1 - Pix2Pix
