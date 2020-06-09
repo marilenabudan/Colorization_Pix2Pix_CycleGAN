@@ -2,7 +2,7 @@
 Different experiments have been done to compare the performance of both networks.
 Each directory contains:
 - Dataset: the dataset used to train and test the network
-- Train Results: files obtained from training:
+- Train Results: files obtained from training
   - .pth files: containing the last version of the networks
   - loss_log.txt: contains training losses' evolution
   - train_opt.txt: specifications used for training
