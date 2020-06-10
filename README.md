@@ -1,4 +1,13 @@
 # Comparison of Pix2Pix and CycleGAN’s performances for illustration colorization
+```
+Authors:
+
+Maria Alba Sendra 
+Berta Benet Cugat 
+Maria Elena Budan
+```
+
+# Comparison of Pix2Pix and CycleGAN’s performances for illustration colorization
 ## 1. Introduction
 Image to image translation in Deep Learning is the task of automatically translating images from one domain to another, given two collections of images from each type to develop the training and testing operations. Some examples would be transforming paintings into real photos, changing the season of a picture from, for instance, summer to winter, or transforming a drawing into a real object. For this project, we will develop the task of colorization: transforming old images from black and white to color domain.
 
@@ -19,5 +28,8 @@ To understand well how Pix2Pix and cycleGAN work, we need to understand well Gen
 The experiments performed can be found inside the folder [experiments](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/tree/master/Experiments) where you will find a [ReadMe](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/blob/master/Experiments/README.md) inside that explains what each experiment consists of.
 
 ## 5. Results
+After analyzing the different experiments we can conclude that the one that performs better is the second one: Pix2Pix with batch size = 1. This makes sense since Pix2Pix is a paired model (which tends to learn better) and because we have a small dataset it is prefered to use a small batch size. Notice that the results of the first experiment present red artifacts, which has been corrected in the second one. 
+
+However, we may take into account the cycleGAN in experiment 3 has still quite good results given that it performs unpaired learning and has been trained with half of the training dataset (45%). We could conclude with the idea that, even though the experiments do not show a realistic colorization compared with the Ground truth, they still pass as realistic colorized illustrations.
 
 
