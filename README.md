@@ -1,7 +1,6 @@
 # Comparison of Pix2Pix and CycleGAN’s performances for illustration colorization
 ```
 Authors:
-
 Maria Alba Sendra 
 Berta Benet Cugat 
 Maria Elena Budan
