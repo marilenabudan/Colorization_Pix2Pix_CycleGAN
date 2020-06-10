@@ -14,3 +14,6 @@ We want to remark that the generator in CycleGAN involves a series of down sampl
 
 ## 3. Architecture
 ### 3.1. Main idea: GAN
+To understand what both Pix2Pix and CycleGAN are based on, we first must understand what are Generative Adversarial Networks. GANs (for short) fulfill the goal of automatically learning a loss in order to satisfy a high-level goal such as making an output indistinguishable from reality; they learn this loss that tries to classify if the output image is real or fake, while simultaneously training a generative model to minimize this loss.
+Here we can see an image that explains quite well how does a GAN work:
+![GitHub Logo](/imgs/logo.png)
