@@ -13,7 +13,11 @@ The dataset that we have chosen for this project is a set of 400 illustrations i
 We want to remark that the generator in CycleGAN involves a series of down sampling / up sampling operations that require image sizes to be multiple of 4. Hence, we have chosen this dataset also because it presents a resized version of the illustrations of 256x256, which will fit the model. Moreover, since this architecture is quite memory-intensive and needs to be loaded on one GPU, we are not able to work with large images. Hence, this smaller version, which still presents higher resolution, will also be useful. 
 
 ## 3. Architecture
-### 3.1. Main idea: GAN
-To understand what both Pix2Pix and CycleGAN are based on, we first must understand what are Generative Adversarial Networks. GANs (for short) fulfill the goal of automatically learning a loss in order to satisfy a high-level goal such as making an output indistinguishable from reality; they learn this loss that tries to classify if the output image is real or fake, while simultaneously training a generative model to minimize this loss.
-Here we can see an image that explains quite well how does a GAN work:
-![GitHub Logo](/imgs/logo.png)
+To understand well how Pix2Pix and cycleGAN work, we need to understand well Generative Adversarial Networks. All this information can be found in the original papers [1] and [2].
+
+## 4. Experiments
+The experiments performed can be found inside the folder [experiments](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/tree/master/Experiments) where you will find a [ReadMe](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/blob/master/Experiments/README.md) inside that explains what each experiment consists of.
+
+## 5. Results
+
+
