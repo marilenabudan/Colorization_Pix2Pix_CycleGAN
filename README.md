@@ -29,4 +29,5 @@ After analyzing the different experiments we can conclude that the one that perf
 
 However, we may take into account the cycleGAN in experiment 3 has still quite good results given that it performs unpaired learning and has been trained with half of the training dataset (45%). We could conclude with the idea that, even though the experiments do not show a realistic colorization compared with the Ground truth, they still pass as realistic colorized illustrations.
 
+In the [presentation](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/blob/master/Colorization_pix2pix_cycleGAN.pdf) attached  lossess evolution plots and comparison examples can be found. 
 
