@@ -62,25 +62,25 @@ BeautifulSoup
 ### Pix2Pix train/test
 To train the Pix2Pix models the following commands were used:
 ``` 
-python train.py --dataroot ./datasets/CANVIAR --name CANVIAR --model colorization --gpu_ids 0 --batch_size 1 --display_id -1 
-python train.py --dataroot ./datasets/CANVIAR --name CANVIAR --model colorization --gpu_ids 0 --batch_size 32 --display_id -1 
+python train.py --dataroot ./datasets/pix2pix --name experiment1 --model colorization --gpu_ids 0 --batch_size 32 --display_id -1 
+python train.py --dataroot ./datasets/pix2pix --name experiment2 --model colorization --gpu_ids 0 --batch_size 1 --display_id -1 
 ```
 
 To test them:
 ```
-python test.py --dataroot ./datasets/CANVIAR --name CANVIAR --model colorization --gpu_ids 0 --batch_size 1
-python test.py --dataroot ./datasets/CANVIAR --name CANVIAR --model colorization --gpu_ids 0 --batch_size 1
+python test.py --dataroot ./datasets/pix2pix --name experiment1 --model colorization --gpu_ids 0 --batch_size 32
+python test.py --dataroot ./datasets/pix2pix --name experiment2 --model colorization --gpu_ids 0 --batch_size 1
 ```
 
 ### CycleGAN train/test
 To train the cycleGAN models the following commands were used:
 ``` 
-python train.py --dataroot ./datasets/CANVIAR --name CANVIAR --model cycle_gan --gpu_ids 0 --batch_size 1 --display_id -1 
-python train.py --dataroot ./datasets/CANVIAR --name CANVIAR --model cycle_gan --gpu_ids 0 --batch_size 32 --display_id -1 
+python train.py --dataroot ./datasets/cycleGan --name experiment3 --model cycle_gan --gpu_ids 0 --batch_size 1 --display_id -1 
+python train.py --dataroot ./datasets/cycleGan2 --name experiment4 --model cycle_gan --gpu_ids 0 --batch_size 1 --display_id -1 
 ```
 
 To test them:
 ```
-python test.py --dataroot ./datasets/CANVIAR --name CANVIAR --model cycle_gan --gpu_ids 0 --batch_size 1
-python test.py --dataroot ./datasets/CANVIAR --name CANVIAR --model cycle_gan --gpu_ids 0 --batch_size 1
+python test.py --dataroot ./datasets/cycleGan --name experiment3 --model cycle_gan --gpu_ids 0 --batch_size 1
+python test.py --dataroot ./datasets/cycleGan2 --name experiment4 --model cycle_gan --gpu_ids 0 --batch_size 1
 ```
