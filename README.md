@@ -22,7 +22,7 @@ We want to remark that the generator in CycleGAN involves a series of down sampl
 To understand well how Pix2Pix and cycleGAN work, we need to understand well Generative Adversarial Networks. All this information can be found in the original papers [[1](https://arxiv.org/pdf/1611.07004.pdf)] and [[2](https://arxiv.org/pdf/1703.10593.pdf)].
 
 ### 4. Experiments
-The experiments performed can be found inside the folder [experiments](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/tree/master/Experiments) where you will find a [ReadMe](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/blob/master/Experiments/README.md) inside that explains what each experiment consists of.
+The experiments performed can be found inside the folder [experiments](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/tree/master/Experiments) where you will find a [ReadMe](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/blob/master/Experiments/README.md) inside that explains what each experiment consists of, the dataset used for each of the exepriments and their results.
 
 ### 5. Results
 After analyzing the different experiments we can conclude that the one that performs better is the second one: Pix2Pix with batch size = 1. This makes sense since Pix2Pix is a paired model (which tends to learn better) and because we have a small dataset it is prefered to use a small batch size. Notice that the results of the first experiment present red artifacts, which has been corrected in the second one. 
