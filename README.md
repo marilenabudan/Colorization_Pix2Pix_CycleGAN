@@ -76,11 +76,11 @@ python test.py --dataroot ./datasets/CANVIAR --name CANVIAR --model colorization
 To train the cycleGAN models the following commands were used:
 ``` 
 python train.py --dataroot ./datasets/CANVIAR --name CANVIAR --model cycle_gan --gpu_ids 0 --batch_size 1 --display_id -1 
-python train.py --dataroot ./datasets/colorization3 --name color_cycleGAN3 --model cycle_gan --gpu_ids 0 --batch_size 32 --display_id -1 
+python train.py --dataroot ./datasets/CANVIAR --name CANVIAR --model cycle_gan --gpu_ids 0 --batch_size 32 --display_id -1 
 ```
 
 To test them:
 ```
 python test.py --dataroot ./datasets/CANVIAR --name CANVIAR --model cycle_gan --gpu_ids 0 --batch_size 1
-python test.py --dataroot ./datasets/colorization3 --name color_cycleGAN3 --model cycle_gan --gpu_ids 0 --batch_size 1
+python test.py --dataroot ./datasets/CANVIAR --name CANVIAR --model cycle_gan --gpu_ids 0 --batch_size 1
 ```
