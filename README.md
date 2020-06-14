@@ -60,7 +60,7 @@ BeautifulSoup
 ```
 
 ### Pix2Pix train/test
-To train the Pix2Pix models the following command was used:
+To train the Pix2Pix models the following commands were used:
 ``` 
 python train.py --dataroot ./datasets/CANVIAR --name CANVIAR --model colorization --gpu_ids 0 --batch_size 1 --display_id -1 
 python train.py --dataroot ./datasets/CANVIAR --name CANVIAR --model colorization --gpu_ids 0 --batch_size 32 --display_id -1 
@@ -73,7 +73,7 @@ python test.py --dataroot ./datasets/CANVIAR --name CANVIAR --model colorization
 ```
 
 ### CycleGAN train/test
-To train the cycleGAN models the following command was used:
+To train the cycleGAN models the following commands were used:
 ``` 
 python train.py --dataroot ./datasets/CANVIAR --name CANVIAR --model cycle_gan --gpu_ids 0 --batch_size 1 --display_id -1 
 python train.py --dataroot ./datasets/colorization3 --name color_cycleGAN3 --model cycle_gan --gpu_ids 0 --batch_size 32 --display_id -1 
