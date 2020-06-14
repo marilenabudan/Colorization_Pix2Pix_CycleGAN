@@ -33,13 +33,16 @@ In the [presentation](https://github.com/marilenabudan/Colorization_Pix2Pix_Cycl
 
 ___________________________
 ## Getting started
-This project was run within the UPF cluster which has already installed the main dependencies needed to run the project.
-
-### Prerequisites
 There are no specific prerequisites but this project was run in the [UPF](https://www.upf.edu) cluster which has the following specifications:
 - Max running instances : 64 Parallel (subject to GPU limitations)
 - Max RAM : 122Gb x 4 nodes of RAM.
 - GPU : 4 x Tesla M60  ~ 8 GB.
+
+### Prerequisites
+If you do not have access to the UPF cluster, you can also run it locally having:
+- Linux or macOS
+- Python 3
+- CPU or NVIDIA GPU + CUDA CuDNN
 
 ### Installing
 In order to run the project, the modules installed were the following:
