@@ -31,3 +31,27 @@ However, we may take into account the cycleGAN in experiment 3 has still quite g
 
 In the [presentation](https://github.com/marilenabudan/Colorization_Pix2Pix_CycleGAN/blob/master/Colorization_pix2pix_cycleGAN.pdf) attached  lossess evolution plots and comparison examples can be found. 
 
+___________________________
+## Getting started
+This project was run within the UPF cluster which has already installed the main dependencies needed to run the project.
+
+### Prerequisites
+There are no specific prerequisites but this project was run in the [UPF](https://www.upf.edu) cluster which has the following specifications:
+- Max running instances : 64 Parallel (subject to GPU limitations)
+- Max RAM : 122Gb x 4 nodes of RAM.
+- GPU : 4 x Tesla M60  ~ 8 GB.
+
+### Installing
+In order to run the project, the modules installed were the following:
+```
+Cython
+torchvision
+numpy
+OpenCV
+matplotlib
+PyTorch
+TensorFlow
+scikit-image
+Dominate
+BeautifulSoup
+```
